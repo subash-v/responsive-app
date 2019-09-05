@@ -1,0 +1,42 @@
+.base {
+  display: inline-block;
+  width: 45%;
+  height: 120px;
+  border-radius: 15px;
+  margin: 5px;
+}
+.imageHolder {
+  width: 40%;
+  height: 120px;
+  display: inline-block;
+}
+.headingContainer {
+  width: 60%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #ececec;
+  background: #fff;
+  border-left: 0px solid #212121;
+  padding: 10px;
+}
+.headerText {
+  font-size: 16px;
+  font-weight: bold;
+  color: #212121;
+}
+.subHeaderText {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #33373d;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+@media screen and (max-width: 1024px) {
+  .base {
+    width: 100%;
+  }
+}

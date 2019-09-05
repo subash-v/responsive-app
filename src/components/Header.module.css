@@ -1,0 +1,44 @@
+.base {
+    width: 100%;
+    height:45px;
+    background-color: #fff;
+    padding: 0 20px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.1);
+    font-size: 15px;
+}
+.headerWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconHolder {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /* transform: rotate(-90deg); */
+  }
+  .getAppContainer{
+      display: flex;
+  }
+  .nav{
+      display: flex;
+  }
+  .navText{
+    padding-left: 15px;
+    display: flex;
+    font-size: 14px;
+font-weight: bold;
+  }
+  .icon {
+    width: 30px;
+    height: 20px;
+    background: url(./img/order-online.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
